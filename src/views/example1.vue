@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="p5Canvas"></div>
+  <div class="container" >
+    <div class="p5Canvas" ></div>
   </div>
 </template>
 
@@ -224,12 +224,12 @@ export default {
 
 <style>
 #p5Canvas {
-  width: 100vw;
+  width: 500px;
   position: relative;
+  
 }
-
 main {
   margin: 0 auto;
-  width: 90vw;
+  width: 500px;
 }
 </style>

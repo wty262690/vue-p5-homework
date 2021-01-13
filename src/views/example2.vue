@@ -28,7 +28,6 @@ export default {
         p5.draw = () => {
             p5.background(250);
             p5.rotateY(p5.frameCount * 0.01);
-            
             for (let j = 0; j < 5; j++) {
               p5.push();
               for (let i = 0; i < 80; i++) {
